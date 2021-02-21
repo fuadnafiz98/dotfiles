@@ -1,0 +1,19 @@
+[roxterm profile]
+font=Hasklig 20
+bold_is_bright=1
+hide_menubar=1
+always_show_tabs=0
+show_add_tab_btn=0
+colour_scheme=solarized-dark
+use_custom_command=0
+command=tmux -f .tmux.rox.conf
+bell_highlights_tab=0
+audible_bell=0
+overlay_scrollbar=0
+scrollbar_pos=0
+show_tab_num=1
+vspacing=0
+hspacing=4
+saturation=1.000000
+full_screen=1
+maximise=0

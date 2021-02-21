@@ -1,0 +1,16 @@
+[roxterm profile]
+font=SF Mono 18
+bold_is_bright=1
+hide_menubar=1
+always_show_tabs=0
+show_add_tab_btn=0
+colour_scheme=GTK
+use_custom_command=1
+command=tmux -f .tmux.rox.conf
+bell_highlights_tab=0
+audible_bell=0
+overlay_scrollbar=0
+scrollbar_pos=0
+show_tab_num=1
+full_screen=0
+maximise=1

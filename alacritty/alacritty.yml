@@ -1,0 +1,256 @@
+env: 
+  TERM: xterm-256color
+
+window:
+  decorations: none
+  startup_mode: Maximized
+
+font:
+  # Normal (roman) font face
+  normal:
+    # family: Hack
+    family: iA Writer Mono S
+    # The `style` can be specified to pick a specific face.
+    style: Regular
+  # Italic font face
+  italic:
+    # family: Hack 
+    family: iA Writer Mono S
+    # The `style` can be specified to pick a specific face.
+    style: Italic
+  # Bold font face
+  bold:
+    # family: Hack 
+    family: iA Writer Mono S
+    # The `style` can be specified to pick a specific face.
+    style: Bold
+  # Italic font face
+  bold_italic:
+    # family: Hack
+    family: iA Writer Mono S
+    style: Bold Italic
+
+  # Point size
+  size: 20.0
+
+  # Offset is the extra space around each character. `offset.y` can be thought of
+  # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
+  offset:
+    x: 0
+    y: 0
+
+  # Glyph offset determines the locations of the glyphs within their cells with
+  # the default being at the bottom. Increasing `x` moves the glyph to the right,
+  # increasing `y` moves the glyph upwards.
+  glyph_offset:
+    x: 0
+    y: 0
+
+  # Scale the font size based on the monitor's DPI. This will lead to bigger text on HiDPI
+  # screens and make reading text a little easier.
+  # On X11 it is possible to change the DPI for each instance of alacritty by using
+  # `WINIT_HIDPI_FACTOR=1.0 alacritty` to scale the font.
+  #scale_with_dpi: true
+
+# Display the time it takes to redraw each frame.
+render_timer: false
+
+# If `true`, bold text is drawn using the bright color variants.
+draw_bold_text_with_bright_colors: true
+
+# cursor:
+  # style: Beam
+  # thickness: 0.25
+
+
+#Space Duck
+# colors:
+#   # Default colors
+#   primary:
+#     background: '0x0f111b'
+#     foreground: '0xecf0c1'
+
+#   # Normal colors
+#   normal:
+#     black:   '0x000000'
+#     red:     '0xe33400'
+#     green:   '0x5ccc96'
+#     yellow:  '0xb3a1e6'
+#     blue:    '0x00a3cc'
+#     magenta: '0xf2ce00'
+#     cyan:    '0x7a5ccc'
+#     white:   '0x686f9a'
+
+#   # Bright colors
+#   bright:
+#     black:   '0x686f9a'
+#     red:     '0xe33400'
+#     green:   '0x5ccc96'
+#     yellow:  '0xb3a1e6'
+#     blue:    '0x00a3cc'
+#     magenta: '0xf2ce00'
+#     cyan:    '0x7a5ccc'
+#     white:   '0xf0f1ce'
+
+# Colors (Material Theme)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '#141e20'
+#     foreground: '0xc4c7d1'
+
+#   # Normal colors
+#   normal:
+#     black:   '0x666666'
+#     red:     '0xeb606b'
+#     green:   '0xc3e88d'
+#     yellow:  '0xf7eb95'
+#     blue:    '0x80cbc4'
+#     magenta: '0xff2f90'
+#     cyan:    '0xaeddff'
+#     white:   '0xffffff'
+
+#   # Bright colors
+#   bright:
+#     black:   '0xa1a1a1'
+#     red:     '0xeb606b'
+#     green:   '0xc3e88d'
+#     yellow:  '0xf7eb95'
+#     blue:    '0x7dc6bf'
+#     magenta: '0x6c71c4'
+#     cyan:    '0x35434d'
+#     white:   '0xffffff'
+# # Colors (Ayu Dark)
+# colors:
+#   # Default colors
+#   primary:
+#     background: '0x0f1419'
+#     foreground: '0xe6e1cf'
+
+#   # Normal colors
+#   normal:
+#     black:   '0x000000'
+#     red:     '0xf34a4a'
+#     green:   '0xbae67e'
+#     yellow:  '0xffee99'
+#     blue:    '0x73d0ff'
+#     magenta: '0xd4bfff'
+#     cyan:    '0x83CEC6'
+#     white:   '0xf2f2f2'
+
+#   # Bright colors
+#   bright:
+#     black:   '0x737d87'
+#     red:     '0xff3333'
+#     green:   '0xc2d94c'
+#     yellow:  '0xe7c547'
+#     blue:    '0x59c2ff'
+#     magenta: '0xb77ee0'
+#     cyan:    '0x5ccfe6'
+#     white:   '0xffffff'
+# Colors (Gruvbox dark)
+# colors:
+#   # Default colors
+#   primary:
+#     # hard contrast: background = '#1d2021'
+#     background: '#1d2021'
+#     # soft contrast: background = '#32302f'
+#     foreground: '#ebdbb2'
+
+#   # Normal colors
+#   normal:
+#     black:   '#282828'
+#     red:     '#cc241d'
+#     green:   '#98971a'
+#     yellow:  '#d79921'
+#     blue:    '#458588'
+#     magenta: '#b16286'
+#     cyan:    '#689d6a'
+#     white:   '#a89984'
+
+#   # Bright colors
+#   bright:
+#     black:   '#928374'
+#     red:     '#fb4934'
+#     green:   '#b8bb26'
+#     yellow:  '#fabd2f'
+#     blue:    '#83a598'
+#     magenta: '#d3869b'
+#     cyan:    '#8ec07c'
+#     white:   '#ebdbb2'
+
+# Colors (HackTheBox)
+# colors:
+#   # Default colors
+#   primary:
+#     # hard contrast: background = '#1d2021'
+#     background: '#161f2d'
+#     # soft contrast: background = '#32302f'
+#     foreground: '#c5d1eb'
+
+#   # Normal colors
+#   normal:
+#     black:   '#161f2d'
+#     red:     '#ff3e3e'
+#     green:   '#9fef00'
+#     yellow:  '#ffaf00'
+#     blue:    '#2e6cff'
+#     magenta: '#9f00ff'
+#     cyan:    '#2ee7b6'
+#     white:   '#a4b1cd'
+
+#   # Bright colors
+#   bright:
+#     black:   '#a4b1cd'
+#     red:     '#ff8484'
+#     green:   '#c5f467'
+#     yellow:  '#ffcc5c'
+#     blue:    '#5cb2ff'
+#     magenta: '#cf8dfb'
+#     cyan:    '#5cecc6'
+#     white:   '#a4b1cd'
+
+# ONE DARK
+colors:
+  # Default colors
+  primary:
+    background: '#21242b'
+    foreground: '0xabb2bf'
+
+    # Bright and dim foreground colors
+    #
+    # The dimmed foreground color is calculated automatically if it is not present.
+    # If the bright foreground color is not set, or `draw_bold_text_with_bright_colors`
+    # is `false`, the normal foreground color will be used.
+    # dim_foreground: '0x9a9a9a'
+    bright_foreground: '0xe6efff'
+
+  # Cursor colors
+  #
+  # Colors which should be used to draw the terminal cursor. If these are unset,
+  # the cursor color will be the inverse of the cell color.
+  #cursor:
+  #  text: '0x000000'
+  #  cursor: '0xffffff'
+
+  # Normal colors
+  normal:
+    black:   '0x1e2127'
+    red:     '0xe06c75'
+    green:   '0x98c379'
+    yellow:  '0xd19a66'
+    blue:    '0x61afef'
+    magenta: '0xc678dd'
+    cyan:    '0x56b6c2'
+    white:   '0x828791'
+
+  # Bright colors
+  bright:
+    black:   '0x5c6370'
+    red:     '0xe06c75'
+    green:   '0x98c379'
+    yellow:  '0xd19a66'
+    blue:    '0x61afef'
+    magenta: '0xc678dd'
+    cyan:    '0x56b6c2'
+    white:   '0xe6efff'

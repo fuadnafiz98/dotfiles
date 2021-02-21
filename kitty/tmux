@@ -1,0 +1,1 @@
+launch /usr/local/bin/tmux -f /home/fuadnafiz98/.tmux.rox.conf
