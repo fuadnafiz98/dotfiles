@@ -1,0 +1,7 @@
+fullscreen=true
+maximize=true
+font-family=monospace
+theme=GruvboxDarkHard
+font-size=20
+bold-is-bright=true
+shell-integration=zsh
